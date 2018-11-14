@@ -66,8 +66,7 @@ module.exports = function(grunt)
         },
         sass: {
             options: {
-                style: 'compact',
-                unixNewlines: true
+                style: 'compressed'
             },
             themeDefault: {
                 files: [{
